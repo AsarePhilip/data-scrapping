@@ -25,12 +25,16 @@ jobs:
     steps:
     # this Action should follow steps to set up Python build environment
       - name: Install Python dependencies
-    #    uses: py-actions/py-dependency-install@v2
-     #   with:
-     #     update-pip: "false"
-     #     update-setuptools: "false"
-     #     update-wheel: "false"
-     #     path: "requirements.txt"
+        uses: py-actions/py-dependency-install@v2
+        with:
+          python-version: '3.6'
+          update-pip: "false"
+          update-setuptools: "false"
+          update-wheel: "false"
+          path: "requirements.txt"
+          
+      - name: Display Python version
+        run: python -c "import sys; print(sys.version)"
 
     
   
