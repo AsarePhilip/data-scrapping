@@ -23,11 +23,16 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+
+      - uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
     # this Action should follow steps to set up Python build environment
       - name: Install Python dependencies
         uses: py-actions/py-dependency-install@v2
         with:
-          python-version: '3.6'
           update-pip: "false"
           update-setuptools: "false"
           update-wheel: "false"
