@@ -38,6 +38,7 @@ jobs:
           pip install Cython
           pip install wheel
           pip install pandas
+          pip install beautifulsoup4
           
       - name: Display Python version
         run: python -c "import sys; print(sys.version)"
