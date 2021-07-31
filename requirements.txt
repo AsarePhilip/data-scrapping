@@ -2,4 +2,10 @@
 #pip install pandas
 
 #install Beautifulsoup
-pip install beautifulsoup4
+#pip install beautifulsoup4
+pip install setuptools
+pip install numpy
+pip install Cython
+pip install wheel
+
+pip install pandas
