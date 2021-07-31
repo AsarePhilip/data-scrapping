@@ -1,5 +1,5 @@
 #Install pandas
-pip install pandas
+#pip install pandas
 
 #install Beautifulsoup
 pip install beautifulsoup4
