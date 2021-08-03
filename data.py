@@ -50,4 +50,4 @@ data = df.iloc[:,[0,11,1,2,3,4,5,7,8]]
 #sort data by Road deaths per Million Inhabitants
 data = data.sort_values('Road deaths per Million Inhabitants' , ignore_index=True)
 #Export Data to CSV
-data.to_csv('data.csv')
+data.to_csv('data.csv', index=False)
