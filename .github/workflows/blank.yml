@@ -45,6 +45,6 @@ jobs:
           
       - name: Test with pytest
         run: |
-          pytest -q ../data.py 
+          pytest -q data.py 
 
 
