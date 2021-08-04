@@ -7,7 +7,7 @@ This is a simple  python application to extract data from an html document(table
 
 1. **data package/**
 
-  Directory is a data package containing the the extracted data, **data.csv** in csv format and json file **datapackage.json** that describes the data.
+  This Directory is a data package containing the the extracted data, **data.csv** in csv format and json file **datapackage.json** that describes the data.
 
 2. **data.py**
 
