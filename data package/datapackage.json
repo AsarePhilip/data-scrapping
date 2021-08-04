@@ -1,0 +1,98 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "European_Union_Road_Safety_Facts_and_Figures",
+      "path": "https://github.com/AsarePhilip/data-scrapping/blob/master/data%20package/data.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "string",
+            "format": "default",
+            "title": "Country",
+            "description": "Country"
+          },
+          {
+            "name": "field2",
+            "type": "string",
+            "format": "default",
+            "title": "Year",
+            "description": "Year"
+          },
+          {
+            "name": "field3",
+            "type": "number",
+            "format": "default",
+            "title": "Area",
+            "description": "Area of Country in Thousands Km sq."
+          },
+          {
+            "name": "field4",
+            "type": "string",
+            "format": "default",
+            "title": "Population",
+            "description": "Total Population of the country.\n"
+          },
+          {
+            "name": "field5",
+            "type": "number",
+            "format": "default",
+            "title": "GDP per capita",
+            "description": "GDP per capita of the respective country"
+          },
+          {
+            "name": "field6",
+            "type": "number",
+            "format": "default",
+            "title": "Population density",
+            "description": "Population density, Inhabitants per km square."
+          },
+          {
+            "name": "field7",
+            "type": "integer",
+            "format": "default",
+            "title": "Vehicle ownership",
+            "description": "Vehicle ownership per thousand Inhabitants"
+          },
+          {
+            "name": "field8",
+            "type": "integer",
+            "format": "default",
+            "title": "Total road deaths",
+            "description": "Total road deaths in the given year"
+          },
+          {
+            "name": "field9",
+            "type": "integer",
+            "format": "default",
+            "title": "Road deaths per Million Inhabitants",
+            "description": "Road deaths per Million Inhabitants in the given year."
+          }
+        ]
+      },
+      "title": "European Union Road Safety Facts and Figures"
+    }
+  ],
+  "keywords": [
+    "Road Accidents"
+  ],
+  "name": "European_Union_Road_Safety_Facts and_Figures",
+  "title": "European Union Road Safety Facts and Figures",
+  "description": "European Union Road Safety Facts and Figures",
+  "homepage": "https://en.wikipedia.org/wiki/Road_safety_in_Europe",
+  "version": "1.0.0",
+  "contributors": [
+    {
+      "title": "Philip Boadu Asare",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "title": "None",
+      "path": "https://en.wikipedia.org/wiki/Road_safety_in_Europe"
+    }
+  ]
+}
