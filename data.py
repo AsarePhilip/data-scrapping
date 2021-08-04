@@ -24,15 +24,12 @@ headings = [ 'Country', 'Area', 'Population', 'GDP per capita', 'Population dens
             'Vehicle ownership','Road Network Lenght' ,
             'Total road deaths','Road deaths per Million Inhabitants', 'Killed', 'Injury']
 
-
-
-row = table.contents
-
-
 #Get Records in table
+row = table.contents
 records = []
 rows = table.tbody.find_all('tr')
 
+#Loop throug table all select all row contentens 
 for x in range(1, len(rows)-1):
     record = rows[x]
     refined_record=[]
@@ -46,8 +43,9 @@ df = pd.DataFrame(records, columns=headings)
 
 #Add year colum
 df['Year'] = 2018
+#Select relevant columns
 data = df.iloc[:,[0,11,1,2,3,4,5,7,8]]
 #sort data by Road deaths per Million Inhabitants
 data = data.sort_values('Road deaths per Million Inhabitants' , ignore_index=True)
-#Export Data to CSV
+#Export Data to CSV file
 data.to_csv('data.csv', index=False)
