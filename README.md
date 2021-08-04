@@ -6,11 +6,10 @@ This is a simple  python application to extract data from an html document(table
 ## Program Files
 
 1. **data package/** 
-
-Directory is a data package containing the the extracted data, **data.csv** in csv format and json file **datapackage.json** that describes the data.
+  Directory is a data package containing the the extracted data, **data.csv** in csv format and json file **datapackage.json** that describes the data.
 
 2. **data.py**
-This is the python script used to scrap data from the web.
+  This is the python script used to scrap data from the web.
 
 
 
